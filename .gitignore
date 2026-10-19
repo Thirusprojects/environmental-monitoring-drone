@@ -1,0 +1,6 @@
+.DS_Store
+__MACOSX/
+secrets.h
+*.local.h
+.pio/
+build/
