@@ -2,8 +2,6 @@
 
 The sketch was supplied by Thiruppathi P during project documentation. This copy replaces the Blynk token, template ID, Wi-Fi SSID and Wi-Fi password with placeholders. Formatting and comments were cleaned up; executable sensor and communication logic was retained. It is not a newly generated flight-tested implementation.
 
-The author confirms that the project sent readings to Blynk during flight. This archived transcription has been reviewed statically, not compiled or tested on hardware in this documentation session.
-
 ## Findings to resolve before reuse
 
 - The Blynk template definitions occur after the Blynk include. Check the required placement for the selected Blynk library version when preparing a runnable revision.
@@ -15,4 +13,3 @@ The author confirms that the project sent readings to Blynk during flight. This 
 - BMP SPI pin macros are unused: `Adafruit_BMP280 bmp` uses I2C. They should not be treated as a wiring diagram.
 - DHT read failures are not filtered before publication. Startup MQ calibration takes ten immediate samples; warm-up and calibration conditions require confirmation.
 
-No silently corrected replacement has been substituted for the author's supplied sketch.
