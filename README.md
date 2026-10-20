@@ -13,6 +13,7 @@ This project combines a six-motor UAV with an IoT sensing payload to observe tem
 
 ## My contribution
 
+- Led the project team.
 - Assembled the hexacopter and completed electrical wiring.
 - Set up the flight controller using Mission Planner.
 - Programmed the environmental sensing payload.
