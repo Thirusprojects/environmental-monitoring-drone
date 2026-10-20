@@ -4,8 +4,8 @@
 
 ![Actual environmental monitoring hexacopter](media/photos/build.jpg)
 
-**Project author:** Thiruppathi P  
-**Status:** Built and flown; in-flight Blynk data transmission confirmed by the author.
+**Thiruppathi P**  
+**Status:** Built and flown with in-flight Blynk data transmission.
 
 ## Overview
 
@@ -28,13 +28,11 @@ This project combines a six-motor UAV with an IoT sensing payload to observe tem
 | Battery | 5200 mAh, 3S LiPo |
 | Radio control | FlySky FS-i6 transmitter and receiver system |
 | Sensor controller | ESP8266 |
-| Temperature and humidity | DHT22, as configured in the supplied sketch |
+| Temperature and humidity | DHT22 |
 | Atmospheric pressure | BMP280, I2C address `0x76` |
 | Gas sensing | MQ135 connected to analog input A0 in the sketch |
 | Flight setup | Mission Planner |
 | Remote dashboard | Blynk |
-
-The airframe specifications follow the project report. The sensing configuration is supported by the author's supplied code.
 
 ## Working principle
 
@@ -54,7 +52,7 @@ The MQ135 values are outputs of different curve models applied to the same senso
 
 ![Hexacopter in flight](media/photos/flight.jpg)
 
-*The supplied photograph shows the hexacopter airborne during outdoor testing.*
+*Hexacopter airborne during outdoor testing.*
 
 ![Hexacopter on the ground](media/photos/ground.jpg)
 
@@ -62,9 +60,9 @@ The MQ135 values are outputs of different curve models applied to the same senso
 
 ## Dashboard and CAD
 
-![Supplied weather dashboard image](media/dashboard.jpg)
+![Weather monitoring dashboard](media/dashboard.jpg)
 
-*Dashboard image supplied with the project materials. Virtual-pin assignments are documented from the source sketch.*
+*Environmental monitoring dashboard. Virtual-pin assignments are documented in the source sketch.*
 
 See the [CAD screenshot gallery](docs/cad-gallery.md) for seven views of the hexacopter design.
 
@@ -72,16 +70,15 @@ See the [CAD screenshot gallery](docs/cad-gallery.md) for seven views of the hex
 
 - Assembled and manually flew the hexacopter.
 - Integrated an ESP8266 environmental sensing payload.
-- Sent sensor readings to Blynk during flight, as confirmed by the author.
-- Supplied the project sensor sketch for this repository.
+- Sent sensor readings to Blynk during flight.
 
 ## Repository guide
 
 - [Original sensor sketch, sanitized](firmware/original_environment_monitor/original_environment_monitor.ino)
-- [Code provenance and review](docs/code-review.md)
+- [Code review](docs/code-review.md)
 - [Sensor connections and Blynk setup](docs/setup.md)
 - [Revised project report](reports/environmental-monitoring-report.md)
 - [Media provenance](docs/media-record.md)
 - [Suggested GitHub description and topics](docs/repository-details.md)
 
-The source is archived as the author's supplied implementation with credentials replaced and formatting/comments cleaned up. Read the code review before attempting to compile or reuse it.
+The project source uses credential placeholders and cleaned-up formatting and comments. Read the code review before attempting to compile or reuse it.

@@ -1,6 +1,6 @@
 # CAD screenshot gallery
 
-Seven supplied CAD views of the hexacopter design. These are raster screenshots.
+Seven CAD views of the hexacopter design. These are raster screenshots.
 
 ## View 1
 

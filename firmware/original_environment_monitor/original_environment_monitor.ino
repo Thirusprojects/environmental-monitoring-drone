@@ -1,4 +1,4 @@
-// Author-supplied project sketch: sanitized transcription.
+// Environmental monitoring project sketch.
 // Credentials replaced; formatting and comments cleaned up.
 // Original executable logic retained. See docs/code-review.md before reuse.
 #include <Wire.h>

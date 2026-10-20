@@ -10,6 +10,6 @@ All published images originate from the uploaded Environmental monitoring drone 
 | dashboard.jpg | IMG_8576.jpg |
 | cad/view-01.jpg through view-07.jpg | Seven PHOTO-2024-09-14-21-05-59 screenshots, sorted by source filename |
 
-The dashboard image contains a banner illustration as well as displayed values. It is captioned as a supplied dashboard image; the author confirms in-flight Blynk transmission separately. The aircraft photographs represent the physical build. No stock or generated aircraft image is used.
+The dashboard image contains a banner illustration as well as displayed values. The dashboard displays environmental sensing data. The aircraft photographs represent the physical build. No stock or generated aircraft image is used.
 
-The original academic report remains in the user's source archive. The repository contains a revised environmental-monitoring-only Markdown report, with personal identifiers excluded. This preserves the source document while providing a focused public version.
+The original academic report remains in the original project archive. The repository contains a revised environmental-monitoring-only Markdown report, with personal identifiers excluded. This preserves the source document while providing a focused public version.

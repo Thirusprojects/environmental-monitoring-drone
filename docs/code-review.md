@@ -1,6 +1,6 @@
-# Source provenance and code review
+# Code review
 
-The sketch was supplied by Thiruppathi P during project documentation. This copy replaces the Blynk token, template ID, Wi-Fi SSID and Wi-Fi password with placeholders. Formatting and comments were cleaned up; executable sensor and communication logic was retained. It is not a newly generated flight-tested implementation.
+The project sketch uses placeholders for the Blynk token, template ID, Wi-Fi SSID and Wi-Fi password. Formatting and comments were cleaned up; executable sensor and communication logic was retained.
 
 ## Findings to resolve before reuse
 

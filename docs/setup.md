@@ -1,6 +1,6 @@
 # Sensor and dashboard setup reference
 
-This reference records the supplied sketch's interface. Complete the code-review items before attempting hardware reuse.
+This reference records the sensor sketch's interface. Complete the code-review items before attempting hardware reuse.
 
 ## Dependencies
 

@@ -1,9 +1,9 @@
 # Environmental Monitoring Hexacopter
 
 **Portfolio report - revised scope**  
-**Project author: Thiruppathi P**
+**Thiruppathi P**
 
-This is an edited portfolio report derived from the supplied academic report, photographs, CAD screenshots, sensor code and subsequent author confirmations. It is not a reproduction of the original institutional submission.
+This report covers the hexacopter build, environmental sensing payload, Blynk dashboard and flight testing.
 
 ## Purpose
 
@@ -11,19 +11,19 @@ Build an airborne environmental sensing platform that combines manual hexacopter
 
 ## Aircraft
 
-The project report specifies an APM 2.8 flight controller, six 1000 KV brushless motors, 10-inch propellers, 30 A ESCs, a 5200 mAh 3S LiPo battery and a FlySky FS-i6 radio system. Thiruppathi used Mission Planner for setup and confirms manual flight operation.
+The aircraft uses an APM 2.8 flight controller, six 1000 KV brushless motors, 10-inch propellers, 30 A ESCs, a 5200 mAh 3S LiPo battery and a FlySky FS-i6 radio system. I used Mission Planner for setup and flew the aircraft manually.
 
 ![Assembled aircraft](../media/photos/build.jpg)
 
 ## Sensing and communication
 
-An ESP8266 reads a DHT22 on GPIO14, a BMP280 at I2C address 0x76 and an MQ135 through A0, according to the supplied sketch. Temperature and humidity readings are transmitted directly; pressure in pascals is divided by 100000 to display bar. The MQ135 reading is processed with multiple regression coefficient pairs to generate experimental gas-model outputs.
+An ESP8266 reads a DHT22 on GPIO14, a BMP280 at I2C address 0x76 and an MQ135 through A0, as configured in the sensor sketch. Temperature and humidity readings are transmitted directly; pressure in pascals is divided by 100000 to display bar. The MQ135 reading is processed with multiple regression coefficient pairs to generate experimental gas-model outputs.
 
-The ESP8266 transmits readings over Wi-Fi to Blynk. V0, V1 and V2 carry temperature, humidity and pressure. V3 and V4 carry text strings from the gas-model calculations. Thiruppathi confirms that readings reached the dashboard during flight.
+The ESP8266 transmits readings over Wi-Fi to Blynk. V0, V1 and V2 carry temperature, humidity and pressure. V3 and V4 carry text strings from the gas-model calculations. Readings reached the dashboard during flight.
 
-## Contribution
+## My contribution
 
-Thiruppathi handled drone assembly, wiring, flight setup, sensor programming, Blynk dashboard configuration and CAD work. The archive contains seven CAD screenshots and three photographs of the physical aircraft.
+I handled drone assembly, wiring, flight setup, sensor programming, Blynk dashboard configuration and CAD work. The archive contains seven CAD screenshots and three photographs of the physical aircraft.
 
 ## Demonstrated outcome
 
